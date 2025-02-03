@@ -5,9 +5,9 @@ Crie um programa que:
 2-Exiba a tabuada desse número (de 1 a 10) no console.
 */
 
-let numero = Number(prompt('digite um numero'))
+let numero = 2
 
-if(!NaN(numero)){
+if(!isNaN(numero)){
     console.log(`Tabuada do numero ${numero}`)
 
     for (let i =1; i <=10; i++){
