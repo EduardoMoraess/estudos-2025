@@ -11,4 +11,4 @@ let numero2 = Number(prompt('Digite outro numero:'))
 
 let soma = numero1 + numero2
 
-console.log(`A soma entre ${numero1} e ${numero2} vale a ${soma}`)
+alert(`A soma entre ${numero1} e ${numero2} vale a ${soma}`)
